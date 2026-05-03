@@ -404,7 +404,10 @@ button:active {
 }
 
 .result-retry-button {
-  display: block;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
   margin: 20px auto;
 }
 
@@ -1057,11 +1060,16 @@ button:active {
   }
 
   .result-retry-button {
-    width: auto;
+    width: fit-content;
+    min-width: 240px;
+    max-width: 100%;
     height: auto;
     margin-top: 44px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 16px 42px;
     font-size: 28px;
+    line-height: 1;
   }
 }
 
