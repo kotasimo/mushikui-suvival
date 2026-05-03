@@ -841,6 +841,10 @@ button:active {
     box-sizing: border-box;
   }
 
+  .screen > .countdown {
+    margin: auto 0;
+  }
+
   .challenge-list {
     width: 100%;
     padding-bottom: 32px;
