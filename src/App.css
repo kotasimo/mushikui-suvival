@@ -1064,3 +1064,30 @@ button:active {
     font-size: 28px;
   }
 }
+
+@media (max-width: 1180px) and (orientation: landscape) {
+  body {
+    background: #fffdf5;
+  }
+
+  #root {
+    display: none;
+  }
+
+  body::before {
+    content: "縦向きでプレイしてください";
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    padding: 32px;
+    background: #fffdf5;
+    color: #111;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+  }
+}
