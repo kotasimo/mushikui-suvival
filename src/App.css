@@ -861,7 +861,7 @@ button:active {
   }
 }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 1180px) and (orientation: portrait) {
   .menu-grid {
     flex-direction: column;
     gap: 18px;
