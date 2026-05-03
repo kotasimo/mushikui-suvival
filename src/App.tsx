@@ -79,7 +79,7 @@ export default function App() {
 
   return (
     <main className="screen">
-      <h1>虫食い算</h1>
+      <h1>虫食い算 サバイバル</h1>
 
       <div className="menu-grid">
         <MenuButton
