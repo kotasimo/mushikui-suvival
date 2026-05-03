@@ -33,7 +33,7 @@ export function GameScreen({
   children,
   countdown,
 }: Props) {
-  const isMobile = window.innerWidth <= 1180;
+  const usesTouchKeypad = window.innerWidth <= 1180;
 
   return (
     <main className="game-screen">
@@ -69,7 +69,7 @@ export function GameScreen({
         </div>
         
         {/* keypad */}
-        {isMobile && (
+        {usesTouchKeypad && (
           <MobileKeypad
             onNumber={onNumber}
             onDelete={onDelete}
