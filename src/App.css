@@ -693,13 +693,13 @@ button:active {
 
   margin-top: 32px; /* ← ここで下げる（調整ポイント） */
 
-  margin-top: 72px;
+  margin-top: 96px;
   transform: scale(0.9);
   transform-origin: top center; /* ← ここも地味に重要 */
 }
 
   .finish-button {
-    top: calc(env(safe-area-inset-top) + 44px);
+    top: calc(env(safe-area-inset-top) + 68px);
   }
 
   .mobile-keypad {
@@ -770,12 +770,12 @@ button:active {
 
   .result-screen {
     height: 100dvh;
-    padding: 52px 16px 20px;
+    padding: 76px 16px 20px;
     overflow: hidden;
   }
 
   .result-top-buttons {
-    top: calc(env(safe-area-inset-top) + 44px);
+    top: calc(env(safe-area-inset-top) + 68px);
   }
 
   .result-header {
@@ -837,7 +837,7 @@ button:active {
     min-height: 100dvh;
     height: 100dvh;
     overflow-y: auto;
-    padding: 72px 16px 24px;
+    padding: 96px 16px 24px;
     box-sizing: border-box;
   }
 
