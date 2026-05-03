@@ -81,6 +81,8 @@ export default function App() {
     <main className="screen">
       <h1>虫食い算 サバイバル</h1>
 
+      <p className="description">考えるな、反射で解け。</p>
+
       <div className="menu-grid">
         <MenuButton
           label="5s"
@@ -109,8 +111,6 @@ export default function App() {
           }}
         />
       </div>
-
-      <p className="description">考えるな、反射で解け。</p>
 
       <ul className="description-list">
         <li>制限時間内に解き続ける</li>

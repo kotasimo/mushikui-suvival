@@ -222,7 +222,7 @@ body {
 }
 
 .description {
-  margin: 28px 0 0;
+  margin: 0 0 8px;
   line-height: 1.7;
   text-align: center;
 }
@@ -974,7 +974,7 @@ button:active {
   }
 
   .description {
-    margin-top: 36px;
+    margin: 0 0 12px;
   }
 
   .description-list {
