@@ -856,6 +856,19 @@ button:active {
   }
 }
 
+@media (max-width: 768px) and (orientation: portrait) {
+  .menu-grid {
+    flex-direction: column;
+    gap: 18px;
+    width: 100%;
+  }
+
+  .menu-grid .menu-item,
+  .menu-grid button {
+    width: min(100%, 280px);
+  }
+}
+
 .monster-hit {
   animation: hit 0.18s ease;
 }
