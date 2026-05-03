@@ -1065,7 +1065,7 @@ button:active {
   }
 }
 
-@media (max-width: 1180px) and (orientation: landscape) {
+@media (max-width: 1180px) and (orientation: landscape) and (hover: none) and (pointer: coarse) {
   body {
     background: #fffdf5;
   }
