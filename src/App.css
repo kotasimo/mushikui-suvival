@@ -865,7 +865,7 @@ button:active {
 
   .menu-grid .menu-item,
   .menu-grid button {
-    width: min(100%, 280px);
+    width: min(100%, 140px);
   }
 }
 
