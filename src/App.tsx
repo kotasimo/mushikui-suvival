@@ -113,9 +113,10 @@ export default function App() {
       </div>
 
       <ul className="description-list">
-        <li>制限時間内に解き続ける</li>
+        <li>1問に対する制限時間を選択</li>
         <li>3ミスで終了</li>
-        <li>数字を入力 → Enterで次へ</li>
+        <li>数字を入力 → Enterで次の問題</li>
+        <li>ゲームオーバーになるまで解き続けろ</li>
       </ul>
     </main>
   );
