@@ -899,7 +899,8 @@ button:active {
 
 @media (min-width: 769px) and (max-width: 1180px) {
   .game-center {
-    transform: scale(1);
+    transform: scale(1.25);
+    transform-origin: center;
   }
 
   .mobile-keypad {
