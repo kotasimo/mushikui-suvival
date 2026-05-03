@@ -1051,6 +1051,12 @@ button:active {
     max-width: 860px;
   }
 
+  .result-history .log-table-wrap {
+    height: auto;
+    max-height: 48dvh;
+    margin-bottom: 0;
+  }
+
   .log-table {
     font-size: 20px;
   }
