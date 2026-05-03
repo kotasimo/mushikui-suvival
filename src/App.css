@@ -770,7 +770,7 @@ button:active {
 
   .result-screen {
     height: 100dvh;
-    padding: 76px 16px 20px;
+    padding: 128px 16px 20px;
     overflow: hidden;
   }
 
@@ -799,7 +799,7 @@ button:active {
   }
 
   .result-retry-button {
-    margin-top: 14px;
+    margin-top: 36px;
     margin-bottom: 0;
   }
 
