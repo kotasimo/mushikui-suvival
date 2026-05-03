@@ -388,12 +388,14 @@ button:active {
 .result-score-main {
   font-size: 56px;
   font-weight: bold;
-  margin-bottom: 8px;
+  line-height: 1;
+  margin-bottom: 16px;
 }
 
 .result-best {
   font-size: 18px;
   color: #666;
+  line-height: 1.2;
   margin-bottom: 20px;
 }
 
@@ -1041,6 +1043,10 @@ button:active {
   .result-score-main,
   .result-title {
     font-size: 72px;
+  }
+
+  .result-score-main {
+    margin-bottom: 20px;
   }
 
   .result-best {
