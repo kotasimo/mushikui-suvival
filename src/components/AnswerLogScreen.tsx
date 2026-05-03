@@ -21,7 +21,7 @@ export function AnswerLogScreen({ logs, onBack }: Props) {
                 <table className="log-table">
                     <thead>
                         <tr>
-                            <th>Nu.</th>
+                            <th></th>
                             <th>レベル</th>
                             <th>問題</th>
                             <th>解答</th>

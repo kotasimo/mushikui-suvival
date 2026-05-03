@@ -216,6 +216,19 @@ body {
 .description-list {
   list-style: none;
   padding-left: 0;
+  margin: 18px 0 0;
+  line-height: 1.8;
+  text-align: center;
+}
+
+.description {
+  margin: 28px 0 0;
+  line-height: 1.7;
+  text-align: center;
+}
+
+.description-list li {
+  margin: 6px 0;
 }
 
 .new-best-title {
@@ -381,7 +394,9 @@ button:active {
 }
 
 .result-history .log-table-wrap {
-  max-height: 70vh;
+  height: auto;
+  max-height: 48dvh;
+  margin-bottom: 0;
   overflow-y: auto;
 }
 
@@ -803,7 +818,7 @@ button:active {
 
   .result-history .log-table-wrap,
   .result-body .log-table-wrap {
-    max-height: 58dvh;
+    max-height: 48dvh;
     height: auto;
     overflow-y: auto;
   }
@@ -956,6 +971,15 @@ button:active {
   .description,
   .description-list {
     font-size: 26px;
+  }
+
+  .description {
+    margin-top: 36px;
+  }
+
+  .description-list {
+    margin-top: 24px;
+    line-height: 1.9;
   }
 
   .game-info {
