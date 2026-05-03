@@ -182,16 +182,16 @@ export function useSurvivalGame() {
     useEffect(() => {
         if (countdown === null) return;
 
-        if (countdown === 0) {
-            setCountdown(null);
-            setIsPlaying(true);
-            setTimeLeftMs(answerTimeMs);
-            setQuestion(createQuestion(0));
-            return;
-        }
-
         const timer = setTimeout(() => {
-            setCountdown((prev) => (prev === null ? null : prev - 1));
+            if (countdown <= 1) {
+                setCountdown(null);
+                setIsPlaying(true);
+                setTimeLeftMs(answerTimeMs);
+                setQuestion(createQuestion(0));
+                return;
+            }
+
+            setCountdown(countdown - 1);
         }, 1000);
 
         return () => clearTimeout(timer);

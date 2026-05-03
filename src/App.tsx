@@ -26,7 +26,7 @@ export default function App() {
     return () => clearTimeout(t);
   }, [survival.missCount]);
 
-  if (survival.countdown !== null) {
+  if (survival.countdown !== null && survival.countdown > 0) {
     return (
       <main className="screen">
         <div className="countdown">{survival.countdown}</div>
