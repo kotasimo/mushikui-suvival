@@ -672,7 +672,7 @@ button:active {
   animation: hit 0.18s ease;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1180px) {
  .game-screen {
   height: 100dvh;
   padding: 12px;
