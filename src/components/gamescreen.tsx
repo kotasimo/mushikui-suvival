@@ -33,7 +33,7 @@ export function GameScreen({
   children,
   countdown,
 }: Props) {
-  const isMobile = window.innerWidth <= 768;
+  const isMobile = window.innerWidth <= 1180;
 
   return (
     <main className="game-screen">
