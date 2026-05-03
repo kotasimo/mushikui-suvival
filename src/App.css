@@ -774,6 +774,10 @@ button:active {
     overflow: hidden;
   }
 
+  .result-top-buttons {
+    top: calc(env(safe-area-inset-top) + 44px);
+  }
+
   .result-header {
     margin-bottom: 16px;
   }
