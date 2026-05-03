@@ -896,3 +896,31 @@ button:active {
     filter: brightness(1);
   }
 }
+
+@media (min-width: 769px) and (max-width: 1180px) {
+  .game-center {
+    transform: scale(1);
+  }
+
+  .mobile-keypad {
+    width: 520px;
+    max-width: 80%;
+    grid-template-rows: repeat(4, 64px);
+    gap: 10px;
+    margin-top: 40px;
+  }
+
+  .mobile-keypad button {
+    height: 64px;
+    font-size: 22px;
+  }
+
+  .question {
+    font-size: 48px;
+  }
+
+  .finish-button {
+    top: calc(env(safe-area-inset-top) + 36px);
+    right: calc(env(safe-area-inset-right) + 28px);
+  }
+}
