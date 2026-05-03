@@ -693,9 +693,14 @@ button:active {
 
   margin-top: 32px; /* ← ここで下げる（調整ポイント） */
 
+  margin-top: 72px;
   transform: scale(0.9);
   transform-origin: top center; /* ← ここも地味に重要 */
 }
+
+  .finish-button {
+    top: calc(env(safe-area-inset-top) + 44px);
+  }
 
   .mobile-keypad {
     position: static;
